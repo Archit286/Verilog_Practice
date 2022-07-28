@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module counter(
     input clk, rst, load,
     input [3:0] loadin,
     output reg [3:0] dout

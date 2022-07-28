@@ -13,7 +13,7 @@ load = 0;
 loadin = 4'b1010;
 end
 
-top dut (clk,rst,load,loadin,dout);
+counter dut (clk,rst,load,loadin,dout);
 
 always #20 clk = ~clk;
 

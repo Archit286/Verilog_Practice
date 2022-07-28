@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module dff(
     input clk,rst,din,
     output reg dout, doutbar
     );

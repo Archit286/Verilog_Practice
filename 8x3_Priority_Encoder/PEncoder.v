@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module PEncoder(
     input [7:0]  a,
     output reg [2:0] y,
     output reg d

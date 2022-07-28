@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module demux(
     input din, en,
     input [1:0] sel,
     output reg [3:0] dout

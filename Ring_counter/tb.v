@@ -10,7 +10,7 @@ clk = 0;
 start = 1;
 end
 
-top dut (clk, start, dout);
+counter dut (clk, start, dout);
 
 always #20 clk = ~clk;
 

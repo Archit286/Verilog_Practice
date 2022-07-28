@@ -11,7 +11,7 @@ en = 1;
 din = 1;
 end
 
-top dut (din, en, sel, dout);
+demux dut (din, en, sel, dout);
 
 initial begin
 sel = 2'b00;

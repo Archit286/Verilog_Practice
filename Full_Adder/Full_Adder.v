@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module Full_Adder(
     input a,b,c,
     output sum,carry
     );
@@ -27,7 +27,7 @@ b = 0;
 c = 0;
 end
 
-top dut (a,b,c,sum,carry);
+Full_Adder dut (a,b,c,sum,carry);
 
 always #5 a = ~a;
 always #10 b = ~b;

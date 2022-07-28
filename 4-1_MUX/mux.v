@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module mux(
     input a,b,c,d,
     input [1:0] sel,
     output reg y, ybar
